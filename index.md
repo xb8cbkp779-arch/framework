@@ -50,13 +50,13 @@
 
 # **5. FAIRNESS**
 
-## **The balance between empathy and accountability, realized in relationships through reciprocity, and applied across contexts**
+## **The balance between empathy and accountability, realized in relationships through reciprocity, and upheld with integrity**
 
 # **Examples:**
 
 ## * **Shuns faultfinding and flattery**
 
-## * **Admits mistakes to prevent hypocrisy and earn trust**
+## * **Admits mistakes to prevent hypocrisy and uphold integrity**
 
 ---
 

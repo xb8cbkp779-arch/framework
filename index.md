@@ -62,11 +62,11 @@
 
 # **6. PERSEVERANCE**
 
-## **Maintains exertion and resolve amid hardship or challenge, led by reason not obstinacy.**
+## **Maintains exertion and resolve amid hardship or challenge, led by clear purpose rather than aimless stubbornness.**
 
 # **Examples:**
 
-## **Handles fear-response as a skill to refine**
+## * **Handles fear-response as a skill to refine**
 
 ## **Confronts fear gradually and recurrently**
 

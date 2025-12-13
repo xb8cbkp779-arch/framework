@@ -4,11 +4,11 @@
 
 # **Examples:**
 
-## **Reconsiders beliefs when presented with a new perspective**
+## * **Reconsiders beliefs when presented with a new perspective**
 
-## **Uses Bayesian probability in high-stakes situations**
+## * **Uses Bayesian probability in high-stakes situations**
 
-## **Steers clear of blanket statements**
+## * **Steers clear of blanket statements**
 
 ---
 
@@ -18,9 +18,9 @@
 
 # **Examples:**
 
-## **Constructs rationales that endure the test of time**
+## * **Constructs rationales that endure the test of time**
 
-## **Seeks to discern meaning rather than impose it**
+## * **Seeks to discern meaning rather than impose it**
 
 ---
 
@@ -30,9 +30,9 @@
 
 # **Examples:**
 
-## **Applies the “Veil of ignorance”**
+## * **Applies the “Veil of ignorance”**
 
-## **Summarizes emotions in one word to stay focused**
+## * **Summarizes emotions in one word to stay focused**
 
 ---
 
@@ -42,9 +42,9 @@
 
 # **Examples:**
 
-## **Postpones self-gratification, by deliberately choosing austerity, while remaining emotionally open and creatively engaged**
+## * **Postpones self-gratification, by deliberately choosing austerity, while remaining emotionally open and creatively engaged**
 
-## **Redirects attention or behavior when tempted, distracted, or emotionally reactive**
+## * **Redirects attention or behavior when tempted, distracted, or emotionally reactive**
 
 ---
 
@@ -54,9 +54,9 @@
 
 # **Examples:**
 
-## **Shuns faultfinding and flattery**
+## * **Shuns faultfinding and flattery**
 
-## **Admits mistakes to prevent hypocrisy and earn trust**
+## * **Admits mistakes to prevent hypocrisy and earn trust**
 
 ---
 
@@ -68,7 +68,7 @@
 
 ## * **Handles fear-response as a skill to refine**
 
-## **Confronts fear gradually and recurrently**
+## * **Confronts fear gradually and recurrently**
 
 ---
 
@@ -78,9 +78,9 @@
 
 # **Examples:**
 
-## **Pursues minor progress even during difficult periods**
+## * **Pursues minor progress even during difficult periods**
 
-## **Adjusts interim goals as needed to stay consistent with long-term goals**
+## * **Adjusts interim goals as needed to stay consistent with long-term goals**
 
 ---
 
@@ -90,9 +90,9 @@
 
 # **Examples:**
 
-## **Recognizes one’s skills and achievements and integrate them into your sense of self**
+## * **Recognizes one’s skills and achievements and integrate them into your sense of self**
 
-## **Treats setbacks as a lack of skill, not as personal flaws**
+## * **Treats setbacks as a lack of skill, not as personal flaws**
 
 ---
 
@@ -102,7 +102,7 @@
 
 # **Example:**
 
-## **Gives 80% of one’s effort to your most valued priorities**
+## * **Gives 80% of one’s effort to your most valued priorities**
 
 ---
 
@@ -112,4 +112,4 @@
 
 # **Example:**
 
-## **Uses value-based “if/then” heuristics.**
+## * **Uses value-based “if/then” heuristics.**

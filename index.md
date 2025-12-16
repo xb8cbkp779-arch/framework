@@ -1,5 +1,4 @@
-```html
-<div>
+
 
 
 # **4. SELF-CONTROL**
@@ -118,6 +117,5 @@
 
 ## * **Gives 80% of one’s effort to your most valued priorities**
 
-</div>
-```
+
 

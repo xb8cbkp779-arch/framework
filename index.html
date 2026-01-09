@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal Development Skills</title>
+  <style>
+    :root{
+      color-scheme: dark;
+      --bg: #050607;
+      --card: #0b0d10;
+      --cardTop: #0d1116;
+      --text: #ffffff;
+      --muted: #e6e6e6;
+      --border: #4b5568;
+      --accent: #00e5ff;
+      --shadow: 0 10px 30px rgba(0,0,0,.55);
+      --radius: 14px;
+      --focusRing: 0 0 0 3px rgba(0,229,255,.55);
+    }
+
+    *{ box-sizing: border-box; }
+    html, body{ height: 100%; }
+    body{
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 18px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+
+    header{
+      margin-bottom: 18px;
+    }
+
+    h1{
+      margin: 0 0 8px;
+      font-size: clamp(22px, 3vw, 34px);
+      letter-spacing: .2px;
+    }
+
+    .sub{
+      margin: 0;
+      color: var(--muted);
+      max-width: 85ch;
+    }
+
+    .grid{
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: clip;
+    }
+
+    .card__header{
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 16px;
+      background: linear-gradient(180deg, rgba(0,229,255,.06), rgba(0,0,0,0));
+    }
+
+    .card__title{
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.25;
+      word-break: break-word;
+    }
+
+    .toggle{
+      appearance: none;
+      border: 2px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .toggle:hover{
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(0,229,255,.18);
+    }
+
+    .toggle:focus-visible{
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: var(--focusRing);
+    }
+
+    .toggle__glyph{
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1;
+      transform: translateY(-1px);
+    }
+
+    .card__content{
+      padding: 0 16px 16px;
+    }
+
+    .card__content[hidden]{
+      display: none;
+    }
+
+    .card__contentInner{
+      border-top: 1px solid rgba(255,255,255,.18);
+      padding-top: 14px;
+    }
+
+    .card__contentInner p{
+      margin: 0;
+      color: var(--text);
+    }
+
+    a{
+      color: var(--accent);
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    a:focus-visible{
+      outline: none;
+      box-shadow: var(--focusRing);
+      border-radius: 6px;
+    }
+
+    .sr-only{
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0, 0, 0, 0);
+      white-space: nowrap; border: 0;
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      *{ scroll-behavior: auto !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Personal Development Skills</h1>
+      <p class="sub">Click the “+” button to expand each card and view the full entry. Use Tab to reach each button; press Enter or Space to toggle.</p>
+    </header>
+
+    <section class="grid" aria-label="Entries">
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Self-Regulation:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c1">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Self-Regulation</span>
+          </button>
+        </div>
+        <div class="card__content" id="c1" hidden>
+          <div class="card__contentInner">
+            <p>Manages impulses, attention, and emotions via a cycle of self-monitoring, analysis and self-adjusting.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Sense-Making:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c2">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Sense-Making</span>
+          </button>
+        </div>
+        <div class="card__content" id="c2" hidden>
+          <div class="card__contentInner">
+            <p>Converts raw data into structured schemas by integrating sensory (perceptions and internal states) and symbolic (language and concepts) signals, while reconciling their discrepancies, addressing allocentric perspectives, and revising preconceptions.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Critical Thinking:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c3">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Critical Thinking</span>
+          </button>
+        </div>
+        <div class="card__content" id="c3" hidden>
+          <div class="card__contentInner">
+            <p>Evaluates propositions by estimating their plausibility and reliability, while assessing whether arguments are logically valid and evidence is relevant to the propositions. This process clarifies the relationships among claims, evidence, and inference, leading to cohesive, well-supported conclusions.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Objectivity:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c4">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Objectivity</span>
+          </button>
+        </div>
+        <div class="card__content" id="c4" hidden>
+          <div class="card__contentInner">
+            <p>Mitigates motivated reasoning by identifying uneven evidentiary standards, then uniformly applying empirical and rational criteria to all conclusions through self-critique.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Fairness:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c5">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Fairness</span>
+          </button>
+        </div>
+        <div class="card__content" id="c5" hidden>
+          <div class="card__contentInner">
+            <p>Applies an impartial balance between empathy modulated by inferred intent and accountability modulated by consequence, in reciprocal interactions, regardless of status or perceived moral standing.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Self-Reflection:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c6">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Self-Reflection</span>
+          </button>
+        </div>
+        <div class="card__content" id="c6" hidden>
+          <div class="card__contentInner">
+            <p>Causal attribution that involves separating personal choices from external circumstances, identifying recurring patterns and controllable levers of influence, and converting insights into action.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Self-Efficacy:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c7">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Self-Efficacy</span>
+          </button>
+        </div>
+        <div class="card__content" id="c7" hidden>
+          <div class="card__contentInner">
+            <p>Grounds self-belief in past achievements, frames setbacks as temporary skill gaps rather than personal flaws, and periodically reassesses skills to pit subjective belief against objective competence.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Self-Discipline:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c8">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Self-Discipline</span>
+          </button>
+        </div>
+        <div class="card__content" id="c8" hidden>
+          <div class="card__contentInner">
+            <p>The establishment of priorities and the persistent implementation of goals, achieved by voluntarily inhibiting “wants” to pursue “shoulds” amid internal conflict, thus aligning behavior to long-term objectives.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Temperance:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c9">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Temperance</span>
+          </button>
+        </div>
+        <div class="card__content" id="c9" hidden>
+          <div class="card__contentInner">
+            <p>Allocates effort according to strategic importance rather than sunk costs, minimizes unnecessary decision load or temptation exposure, and selects regulation strategies that preserve resources for highest priorities.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <h2 class="card__title">Perseverance:</h2>
+          <button class="toggle" type="button" aria-expanded="false" aria-controls="c10">
+            <span class="toggle__glyph" aria-hidden="true">+</span>
+            <span class="sr-only">Expand Perseverance</span>
+          </button>
+        </div>
+        <div class="card__content" id="c10" hidden>
+          <div class="card__contentInner">
+            <p>Goal-directed persistence of action, through the overriding of avoidance urges, committing to valued outcomes, and utilizing gradual exposure and skill-development to reduce fear-driven withdrawal.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      const buttons = document.querySelectorAll(".toggle");
+
+      function setExpanded(btn, expanded) {
+        const contentId = btn.getAttribute("aria-controls");
+        const content = document.getElementById(contentId);
+        const glyph = btn.querySelector(".toggle__glyph");
+        const sr = btn.querySelector(".sr-only");
+
+        btn.setAttribute("aria-expanded", String(expanded));
+        content.hidden = !expanded;
+
+        if (glyph) glyph.textContent = expanded ? "−" : "+";
+        if (sr) {
+          const title = btn.closest(".card")?.querySelector(".card__title")?.textContent || "entry";
+          sr.textContent = (expanded ? "Collapse " : "Expand ") + title.replace(/:$/, "");
+        }
+      }
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const expanded = btn.getAttribute("aria-expanded") === "true";
+          setExpanded(btn, !expanded);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
